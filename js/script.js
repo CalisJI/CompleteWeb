@@ -13,7 +13,6 @@ window.onscroll = ()=>{
 const scrl = ScrollReveal({
     distance:'80px',duration:2000,reset:true
 })
-
 scrl.reveal('.home-text',{delay:100,origin:'left'})
 scrl.reveal('.about',{delay:100,origin:'right'})
 scrl.reveal('.services',{delay:100,origin:'left'})
