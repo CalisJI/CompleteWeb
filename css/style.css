@@ -147,7 +147,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    grid: gap 2rem;
+    grid-gap: 2rem;
 }
 .about-img img{
     max-width: 100%;
@@ -436,6 +436,9 @@ section{
     #menu-icon{
         display: block;
         
+    }
+    .about-text{
+        padding-left: 20px;
     }
     .sign-up{
         display: none;
